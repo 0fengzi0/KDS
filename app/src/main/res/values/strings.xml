@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KDS叫号</string>
+    <string name="plus">+</string>
+    <string name="less">-</string>
+    <string name="kds_start_number">0100</string>
+    <string name="kds_pass">取餐</string>
+    <string name="kds_start">叫号</string>
+</resources>
