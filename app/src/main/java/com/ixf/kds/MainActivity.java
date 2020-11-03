@@ -54,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void init() {
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
+
         plusButton = findViewById(R.id.kds_plus_button);
         lessButton = findViewById(R.id.kds_less_button);
         startButton = findViewById(R.id.kds_start_button);
